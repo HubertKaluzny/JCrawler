@@ -1,0 +1,4 @@
+SEED: https://www.apple.com
+FILTER:
+TYPE: IS_HOST
+VAL: apple.com

@@ -1,0 +1,18 @@
+SEED: https://www.fnlondon.com/
+SEED: https://www.marketwatch.com/investing/stock/aapl
+SEED: https://www.theguardian.com/uk/business
+SEED: http://www.bbc.co.uk/news/business
+SEED: https://www.ft.com/markets
+SEED: http://www.nasdaq.com/symbol/aapl
+FILTER:
+TYPE: MUST_CONTAIN
+VAL: Apple
+FILTER:
+TYPE: NOT_CONTAIN
+VAL: Microsoft
+FILTER:
+TYPE: MUST_CONTAIN
+VAL: Trade
+FILTER:
+TYPE: MUST_CONTAIN
+VAL: Stock
