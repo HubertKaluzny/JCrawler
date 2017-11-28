@@ -53,7 +53,7 @@ public class CrawlerController implements Runnable {
 
         List<String> newURLs = new ArrayList<>(w.newUrls);
         w.newUrls.clear();
-        for(String url : newURLs){
+        for (String url : newURLs) {
           addWebFile(url);
         }
       }
@@ -68,7 +68,7 @@ public class CrawlerController implements Runnable {
       for (Thread t : threads) {
         t.join();
       }
-    }catch (InterruptedException e){
+    } catch (InterruptedException e) {
       e.printStackTrace();
     }
     running = false;
@@ -83,7 +83,7 @@ public class CrawlerController implements Runnable {
         t.join();
         workers.remove(i);
       }
-    }catch (InterruptedException e){
+    } catch (InterruptedException e) {
       e.printStackTrace();
     }
   }

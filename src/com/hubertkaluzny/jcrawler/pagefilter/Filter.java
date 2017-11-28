@@ -40,9 +40,9 @@ public class Filter {
   }
 
   public void setVal(String val) {
-    if(filterType.equals(FilterType.NOT_CONTAIN) || filterType.equals(FilterType.MUST_CONTAIN)){
+    if (filterType.equals(FilterType.NOT_CONTAIN) || filterType.equals(FilterType.MUST_CONTAIN)) {
       this.val = " " + val + " ";
-    }else{
+    } else {
       this.val = val;
     }
   }
